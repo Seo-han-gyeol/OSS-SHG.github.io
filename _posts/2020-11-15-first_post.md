@@ -1,6 +1,6 @@
 ---
-title: Welcome to Jekyll
-categories: [dev]
+title: project 진행사항
+categories: [project]
 comments: true
 ---
 
