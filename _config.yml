@@ -1,0 +1,47 @@
+
+title: OSS - seo_han_gyeol
+email: shy7338@naver.com
+description: > # this means to ignore newlines until "baseurl"
+  test blog
+
+baseurl: 
+
+remote_theme: starry99/catbook
+
+url: http://starry99.github.io/catbook # the base hostname & protocol for your site
+
+permalink: /:year-:month/:title
+timezone:
+
+favicon: /assets/img/favicon.ico
+
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
+
+user:
+  name: seo-han-gyeol
+  pic: /assets/img/cat.jpg
+  picAlt: "catbook"
+  job: a category-centric theme
+  aboutme: false
+exclude:
+  - README.md
+  - LICENSE
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown 
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
